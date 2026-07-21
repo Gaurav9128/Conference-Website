@@ -1,0 +1,170 @@
+/* ==========================================================
+   Conference Tracks Swiper
+========================================================== */
+
+.conferenceSwiper {
+  padding: 30px 0 120px;
+}
+
+
+
+.conferenceSwiper .swiper-wrapper {
+  align-items: center;
+}
+
+.conferenceSwiper .swiper-slide {
+  transition: all 0.45s ease;
+  opacity: 0.45;
+  transform: scale(0.88);
+}
+
+.conferenceSwiper .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 20;
+}
+
+.conferenceSwiper .swiper-slide-prev,
+.conferenceSwiper .swiper-slide-next {
+  opacity: 0.75;
+  transform: scale(0.93);
+}
+
+/* ==========================================================
+   Navigation Buttons
+========================================================== */
+
+.track-prev,
+.track-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 56px;
+  height: 56px;
+  border-radius: 9999px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 50;
+
+  color: #2563eb;
+
+  box-shadow:
+    0 10px 25px rgba(15, 23, 42, 0.12);
+
+  transition: all .35s ease;
+}
+
+.track-prev {
+  left: -25px;
+}
+
+.track-next {
+  right: -25px;
+}
+
+.track-prev:hover,
+.track-next:hover {
+  background: #2563eb;
+  color: #ffffff;
+  transform: translateY(-50%) scale(1.08);
+}
+
+/* ==========================================================
+   Pagination
+========================================================== */
+
+.conferenceSwiper .swiper-pagination {
+  position: relative !important;
+  margin-top: 50px;
+  bottom: auto !important;
+}
+
+.conferenceSwiper .swiper-pagination-bullet {
+  width: 11px;
+  height: 11px;
+  background: #cbd5e1;
+  opacity: 1;
+  transition: all .35s ease;
+}
+
+.conferenceSwiper .swiper-pagination-bullet-active {
+  width: 34px;
+  border-radius: 999px;
+  background: #2563eb;
+}
+
+/* ==========================================================
+   Card Hover
+========================================================== */
+
+.conferenceSwiper .swiper-slide-active:hover {
+  transform: scale(1.03);
+}
+
+/* ==========================================================
+   Smooth Shadow
+========================================================== */
+
+.conferenceSwiper .swiper-slide-active .track-card {
+  box-shadow:
+    0 20px 60px rgba(0,0,0,.18);
+}
+
+/* ==========================================================
+   Tablet
+========================================================== */
+
+@media (max-width: 1024px) {
+
+  .track-prev {
+    left: 0;
+  }
+
+  .track-next {
+    right: 0;
+  }
+
+}
+
+/* ==========================================================
+   Mobile
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .conferenceSwiper {
+    padding-bottom: 60px;
+  }
+
+  .track-prev,
+  .track-next {
+    display: none;
+  }
+
+  .conferenceSwiper .swiper-slide {
+    opacity: 1;
+    transform: none;
+  }
+
+  .conferenceSwiper .swiper-slide-active {
+    transform: none;
+  }
+
+}
+
+/* ==========================================================
+   Nice Smooth Animation
+========================================================== */
+
+.track-card {
+  transition:
+    transform .45s ease,
+    box-shadow .45s ease;
+}
+
+.track-card:hover {
+  transform: translateY(-8px);
+}

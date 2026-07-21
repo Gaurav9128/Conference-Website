@@ -1,0 +1,86 @@
+export const tracks = [
+  {
+    id: "01",
+    title: "Intelligent Systems & Machine Learning",
+    color: "from-[#2D50D7] to-[#4A72FF]",
+    reverse: false,
+    topics: [
+      "Advanced Deep Learning and Foundation Models",
+      "Reinforcement Learning and Autonomous Decision Systems",
+      "Explainable, Ethical and Responsible AI",
+      "Computer Vision and Pattern Recognition Systems",
+      "Natural Language Processing and Conversational AI",
+      "Edge AI and Distributed Intelligent Systems",
+      "Hybrid AI: Neuro-Symbolic AI",
+      "AI for Robotics and Intelligent Automation",
+    ],
+  },
+
+  {
+    id: "02",
+    title: "Cybersecurity & Secure Computing",
+    color: "from-[#17A6C5] to-[#32D2F2]",
+    reverse: true,
+    topics: [
+      "Zero Trust Architecture",
+      "Cloud Security",
+      "Blockchain Security",
+      "Digital Forensics",
+      "AI for Threat Detection",
+      "IoT Security",
+      "Privacy Preserving Computing",
+      "Secure Software Engineering",
+    ],
+  },
+
+  {
+    id: "03",
+    title: "Data Science & Big Data Analytics",
+    color: "from-[#7B3FF2] to-[#A46CFF]",
+    reverse: false,
+    topics: [
+      "Big Data Analytics",
+      "Data Mining",
+      "Predictive Analytics",
+      "Business Intelligence",
+      "Data Visualization",
+      "Knowledge Discovery",
+      "Data Engineering",
+      "Decision Support Systems",
+    ],
+  },
+
+  {
+    id: "04",
+    title: "Cloud Computing & Internet of Things",
+    color: "from-[#FF7E32] to-[#FFA14A]",
+    reverse: true,
+    topics: [
+      "Cloud Native Applications",
+      "Serverless Computing",
+      "IoT Architecture",
+      "Edge Computing",
+      "Fog Computing",
+      "Industrial IoT",
+      "Smart Cities",
+      "Cloud Security",
+    ],
+  },
+
+  {
+    id: "05",
+    title: "Emerging Technologies",
+    color: "from-[#00A36C] to-[#27D59B]",
+    reverse: false,
+    topics: [
+      "Quantum Computing",
+      "AR / VR",
+      "Digital Twin",
+      "Metaverse",
+      "Blockchain",
+      "5G & 6G Networks",
+      "Green Computing",
+      "Smart Healthcare",
+    ],
+  },
+];

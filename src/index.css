@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================
+   Infinite Marquee
+============================ */
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: flex;
+  gap: 32px;
+  width: max-content;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee:hover .marquee-content {
+  animation-play-state: paused;
+}
+
+.partner-card {
+  width: 360px;
+  flex-shrink: 0;
+}
+
+/* Smooth infinite animation */
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - 16px));
+  }
+}
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+  .partner-card {
+    width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .partner-card {
+    width: 280px;
+  }
+
+  .marquee-content {
+    gap: 20px;
+    animation-duration: 20s;
+  }
+}
