@@ -1,4 +1,4 @@
-import sessionVideo from "../../assets/video.mp4";
+import sessionVideo from "../../assets/Video.mp4";
 import { FileText } from "lucide-react";
 import ConferenceBanner from "../layout/ConferenceBanner";
 export default function SpecialSession() {
