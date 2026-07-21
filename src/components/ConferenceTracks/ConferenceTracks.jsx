@@ -35,10 +35,9 @@ const ConferenceTracks = () => {
           </h2>
 
           <p className="mt-6 text-lg leading-9 text-slate-600">
-            Explore the major research areas of ICISET-2026 that encourage
+            Explore the major research areas of ICRAIDT 2027 that encourage
             interdisciplinary collaboration and showcase the latest
-            advancements in intelligent computing, engineering and emerging
-            technologies.
+            advancements in International Conference on Responsible Artificial Intelligence and Digital Trust.
           </p>
 
         </div>
