@@ -25,7 +25,7 @@ const TrackSection = () => {
           <div className="w-24 h-1 bg-yellow-500 rounded-full mx-auto mt-4"></div>
 
           <p className="max-w-3xl mx-auto mt-6 text-[18px] text-gray-600 leading-8">
-            ICISET-2026 features five specialized conference tracks covering
+            ICRAIDT 2027 features five specialized conference tracks covering
             Intelligent Systems, AI, Cyber Security, Cloud Computing, Data
             Science and Emerging Technologies.
           </p>

@@ -64,13 +64,13 @@ const ConferenceTracks = () => {
 
             The theme of the conference will be{" "}
             <span className="font-bold italic text-[#23439B]">
-              “Intelligent Systems and Emerging Technologies”.
+              “International Conference on Responsible Artificial Intelligence and Digital Trust”.
             </span>{" "}
-            Besides contributions addressing the conference theme, ICISET also
+            Besides contributions addressing the conference theme, ICRAIDT also
             welcomes authors to submit their original research results in
             traditional and emerging research areas across a wide range of
             application and technological domains within the context of
-            intelligent computing and next-generation digital technologies.
+            International Conference on Responsible Artificial Intelligence and Digital Trust.
 
           </p>
 

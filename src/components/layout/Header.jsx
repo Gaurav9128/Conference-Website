@@ -1,6 +1,7 @@
 import logo from "../../assets/logo1.png";
 import NavLinks from "./NavLinks";
 import RegisterButton from "./RegisterButton";
+import scopusLogo from "../../assets/logo 2.png";
 
 const Header = () => {
   return (
@@ -20,9 +21,13 @@ const Header = () => {
           </div>
 
           {/* Heading */}
-          <h2 className="text-[#24439B] text-[20px] font-semibold">
-            Scopus Indexed Conference Proceedings
-          </h2>
+          <div className="flex justify-center">
+            <img
+              src={scopusLogo}
+              alt="Scopus Indexed"
+              className="h-30 object-contain"
+            />
+          </div>
 
         </div>
 

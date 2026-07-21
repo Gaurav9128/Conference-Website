@@ -19,7 +19,7 @@ const links = [
   },
   {
     title: "Partners",
-    href: "#partners",
+    href: "/PartnersPublication",
   },
   {
     title: "Committee",
@@ -27,11 +27,11 @@ const links = [
   },
   {
     title: "Speakers",
-    href: "#speakers",
+    href: "/keynote",
   },
   {
     title: "Sponsorship",
-    href: "#sponsorship",
+    href: "/sponsorship",
   },
   {
     title: "Contact",

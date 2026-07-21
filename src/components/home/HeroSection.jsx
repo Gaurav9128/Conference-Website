@@ -16,16 +16,17 @@ const HeroSection = () => {
 
           <h1 className="text-5xl font-extrabold text-[#111827] leading-tight">
 
-            1<sup>st</sup> International Conference on Intelligent
+             International Conference on Responsible Artificial Intelligence and Digital Trust
+
             <br />
-            Systems and Emerging Technologies
+            <p></p>
             <br />
-            (ICISET-2026)
+            (ICRAIDT 2027)
 
           </h1>
 
           <p className="mt-8 text-2xl font-semibold text-[#23439B]">
-            November 27–28, 2026
+            January 22–23, 2027
           </p>
 
           <div className="mt-10 space-y-2">
@@ -35,7 +36,7 @@ const HeroSection = () => {
             </p>
 
             <p className="text-[22px] text-[#23439B]">
-              Department of Computer Science and Engineering
+              Department of Computer Applications
             </p>
 
             <p className="text-[22px] text-[#23439B]">

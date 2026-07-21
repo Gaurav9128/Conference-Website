@@ -6,6 +6,10 @@ import Footer from "./components/layout/Footer";
 import Home from "./pages/Home";
 import SpecialSession from "./components/home/SpecialSession";
 import ConferenceTracks from "./components/home/conferenceTracks";
+import PartnersPublication from "./components/home/PartnersPublication";
+import KeynoteHeader from "./components/home/KeynoteHeader";
+import KeynoteSpeakers from "./components/Speaker/KeynoteSpeakers";
+import SponsorshipHeader from "./components/home/SponsorshipHeader";
 
 function App() {
   return (
@@ -16,6 +20,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/special-session" element={<SpecialSession />} />
         <Route path="/conference-Tracks" element={<ConferenceTracks />} />
+        <Route path="/PartnersPublication" element={<PartnersPublication />}/>
+        <Route path="/keynote" element={<KeynoteHeader/>} />
+        <Route path="/keynotes" element={<KeynoteSpeakers />}/>
+        <Route path="/sponsorship" element={<SponsorshipHeader />} />
       </Routes>
 
       <Footer />

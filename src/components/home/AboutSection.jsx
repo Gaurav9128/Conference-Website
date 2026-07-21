@@ -15,7 +15,7 @@ const AboutSection = () => {
           <div>
 
             <h2 className="text-[30px] font-bold text-[#1c2434] mb-8">
-              About the ICISET–2026 Conference
+              About the ICRAIDT 2027 Conference
             </h2>
 
             <p className="text-[15px] leading-10 text-[#4b5563] text-justify">
@@ -23,31 +23,19 @@ const AboutSection = () => {
               We are pleased to announce the upcoming
               <span className="font-bold text-[#2d3d6f]">
                 {" "}
-                International Conference on Intelligent Systems and Emerging
-                Technologies (ICISET-2026),
+                International Conference on Responsible Artificial Intelligence and Digital Trust (ICRAIDT 20276),
               </span>
-              {" "}which aims to promote high-quality research and real-world
-              technological impact through international collaboration. This
-              conference will bring together world-class researchers,
-              academicians, industry experts, and technology leaders to explore
-              and discuss the latest developments and innovations in the fields
-              of Intelligent Computing and Emerging Digital Technologies.
+              {" "}is a premier international forum dedicated to advancing research, innovation, and collaboration in the fields of Artificial Intelligence, Digital Trust, Cybersecurity, Data Science, Cloud Computing, Blockchain, Human-Centric Computing, and Emerging Digital Technologies. Organized by the Department of Computer Applications, Poornima University, Jaipur, the conference aims to bring together researchers, academicians, industry experts, practitioners, policymakers, and students from across the globe to exchange ideas, present research findings, and discuss emerging challenges and opportunities in the digital era.
 
             </p>
 
             <p className="mt-10 text-[18px] leading-10 text-[#4b5563] text-justify">
 
-              The primary objective of
+              Under the theme
               <span className="font-bold text-[#2d3d6f]">
-                {" "}ICISET-2026
+                {" "}ICRAIDT 2027
               </span>
-              {" "}is to create a global platform where researchers and
-              professionals from different parts of the world can exchange
-              knowledge, present innovative research findings, and build strong
-              professional networks. Through such interactions, the conference
-              seeks to encourage meaningful collaborations and open new
-              opportunities for interdisciplinary research and technological
-              innovation.
+              {" "}"Responsible AI for a Secure, Transparent and Inclusive Digital Future," ICRAIDT 2027 seeks to foster meaningful dialogue on the development and deployment of technologies that are innovative, ethical, trustworthy, and socially beneficial.
 
             </p>
 
