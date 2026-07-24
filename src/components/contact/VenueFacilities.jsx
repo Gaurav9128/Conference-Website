@@ -38,117 +38,333 @@ const travelInfo = [
   },
 ];
 
+
 const VenueFacilities = () => {
+
   return (
-    <section className="bg-white py-24">
-      <div className="max-w-7xl mx-auto px-6">
 
-        {/* Heading */}
+<section className="bg-white py-14 sm:py-20 lg:py-24">
 
-        <h2 className="text-[40px] font-bold text-[#12284B] mb-20">
-          Venue Facilities
-        </h2>
+<div className="max-w-7xl mx-auto px-4 sm:px-6">
 
-        {/* Top */}
 
-        <div className="grid lg:grid-cols-2 gap-40">
+{/* Heading */}
 
-          {/* Left */}
+<h2
+className="
+text-3xl
+sm:text-4xl
+font-bold
+text-[#12284B]
+mb-12
+sm:mb-16
+lg:mb-20
+"
+>
+Venue Facilities
+</h2>
 
-          <div>
 
-            <h3 className="text-[20px] font-semibold text-[#12284B] mb-8">
-              Conference Facilities
-            </h3>
 
-            <div className="space-y-5">
 
-              {conferenceFacilities.map((item, index) => (
-                <div
-                  key={index}
-                  className="flex items-start gap-4"
-                >
-                  <FaCheck className="text-[#21439B] mt-1 text-lg" />
+{/* Top Section */}
 
-                  <p className="text-[15px] text-[#4B5563]">
-                    {item}
-                  </p>
-                </div>
-              ))}
+<div
+className="
+grid
+grid-cols-1
+lg:grid-cols-2
+gap-12
+lg:gap-40
+"
+>
 
-            </div>
 
-          </div>
+{/* Conference Facilities */}
 
-          {/* Right */}
+<div>
 
-          <div>
 
-            <h3 className="text-[20px] font-semibold text-[#12284B] mb-8">
-              Amenities
-            </h3>
+<h3
+className="
+text-lg
+sm:text-xl
+font-semibold
+text-[#12284B]
+mb-6
+sm:mb-8
+"
+>
+Conference Facilities
+</h3>
 
-            <div className="space-y-5">
 
-              {amenities.map((item, index) => (
-                <div
-                  key={index}
-                  className="flex items-start gap-4"
-                >
-                  <FaCheck className="text-[#21439B] mt-1 text-lg" />
 
-                  <p className="text-[18px] text-[#4B5563]">
-                    {item}
-                  </p>
-                </div>
-              ))}
+<div className="space-y-5">
 
-            </div>
 
-          </div>
+{
+conferenceFacilities.map((item,index)=>(
 
-        </div>
+<div
+key={index}
+className="
+flex
+items-start
+gap-3
+sm:gap-4
+"
+>
 
-        {/* Bottom */}
+<FaCheck
+className="
+text-[#21439B]
+mt-1
+text-base
+sm:text-lg
+flex-shrink-0
+"
+/>
 
-        <div className="mt-28">
 
-          <h2 className="text-[32px] font-bold text-[#12284B] mb-20">
-            Getting to Jaipur
-          </h2>
+<p
+className="
+text-sm
+sm:text-[15px]
+text-[#4B5563]
+leading-7
+"
+>
+{item}
+</p>
 
-          <div className="grid md:grid-cols-3 gap-16">
 
-            {travelInfo.map((item, index) => (
+</div>
 
-              <div key={index}>
+))
 
-                <h3 className="flex items-center gap-3 text-[20px] font-semibold text-[#12284B] mb-6">
-                  {item.title}
-                  <span className="text-[#21439B] text-2xl">
-                    {item.icon}
-                  </span>
-                </h3>
+}
 
-                <p className="text-[15px] leading-9 text-[#4B5563]">
-                  {item.description}
-                </p>
 
-                <p className="mt-8 text-[12px] text-[#6B7280]">
-                  {item.info}
-                </p>
+</div>
 
-              </div>
 
-            ))}
+</div>
 
-          </div>
 
-        </div>
 
-      </div>
-    </section>
+
+
+{/* Amenities */}
+
+<div>
+
+
+<h3
+className="
+text-lg
+sm:text-xl
+font-semibold
+text-[#12284B]
+mb-6
+sm:mb-8
+"
+>
+Amenities
+</h3>
+
+
+
+<div className="space-y-5">
+
+
+{
+amenities.map((item,index)=>(
+
+<div
+key={index}
+className="
+flex
+items-start
+gap-3
+sm:gap-4
+"
+>
+
+<FaCheck
+className="
+text-[#21439B]
+mt-1
+text-base
+sm:text-lg
+flex-shrink-0
+"
+/>
+
+
+<p
+className="
+text-sm
+sm:text-base
+text-[#4B5563]
+leading-7
+"
+>
+{item}
+</p>
+
+
+</div>
+
+))
+
+}
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+{/* Travel Section */}
+
+
+<div className="mt-16 sm:mt-24 lg:mt-28">
+
+
+<h2
+className="
+text-2xl
+sm:text-3xl
+font-bold
+text-[#12284B]
+mb-12
+sm:mb-16
+lg:mb-20
+"
+>
+Getting to Jaipur
+</h2>
+
+
+
+
+<div
+className="
+grid
+grid-cols-1
+md:grid-cols-3
+gap-10
+lg:gap-16
+"
+>
+
+
+{
+travelInfo.map((item,index)=>(
+
+
+<div
+key={index}
+className="
+bg-[#F8FAFF]
+rounded-2xl
+p-6
+sm:p-8
+transition
+hover:shadow-lg
+"
+>
+
+
+<h3
+className="
+flex
+items-center
+justify-between
+gap-3
+text-lg
+sm:text-xl
+font-semibold
+text-[#12284B]
+mb-5
+"
+>
+
+{item.title}
+
+
+<span
+className="
+text-[#21439B]
+text-2xl
+"
+>
+{item.icon}
+</span>
+
+
+</h3>
+
+
+
+<p
+className="
+text-sm
+sm:text-[15px]
+leading-7
+text-[#4B5563]
+"
+>
+{item.description}
+</p>
+
+
+
+<p
+className="
+mt-5
+sm:mt-8
+text-xs
+sm:text-sm
+text-[#6B7280]
+"
+>
+{item.info}
+</p>
+
+
+
+</div>
+
+
+))
+
+}
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+</section>
+
+
   );
+
 };
+
 
 export default VenueFacilities;

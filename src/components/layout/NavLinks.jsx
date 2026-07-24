@@ -41,14 +41,14 @@ const links = [
 
 const NavLinks = () => {
   return (
-    <ul className="flex items-center gap-10">
+    <ul className="flex items-center gap-5 lg:gap-10 overflow-x-auto whitespace-nowrap scrollbar-hide">
       {links.map((item) => (
         <li key={item.title}>
           {item.href.startsWith("/") ? (
             <NavLink
               to={item.href}
               className={({ isActive }) =>
-                `text-[16px] font-medium transition-all duration-300 whitespace-nowrap ${
+                `text-[14px] lg:text-[16px] font-medium transition-all duration-300 whitespace-nowrap ${
                   isActive
                     ? "text-[#24439B]"
                     : "text-slate-700 hover:text-[#24439B]"
@@ -60,7 +60,7 @@ const NavLinks = () => {
           ) : (
             <a
               href={item.href}
-              className="text-[16px] font-medium text-slate-700 hover:text-[#24439B] transition-all duration-300 whitespace-nowrap"
+              className="text-[14px] lg:text-[16px] font-medium text-slate-700 hover:text-[#24439B] transition-all duration-300 whitespace-nowrap"
             >
               {item.title}
             </a>
