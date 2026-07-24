@@ -1,0 +1,55 @@
+import heroVideo from "../../assets/Video.mp4";
+
+const AboutHero = () => {
+  return (
+    <section className="bg-[#F7F8FC] pt-24 pb-40">
+      <div className="max-w-7xl mx-auto px-6">
+
+        {/* Hero Video */}
+        <div className="relative">
+
+          <video
+            className="
+              w-full
+              h-[550px]
+              object-cover
+              rounded-[32px]
+              shadow-[0_25px_60px_rgba(0,0,0,0.12)]
+            "
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source src={heroVideo} type="video/mp4" />
+          </video>
+
+          {/* Dark Overlay */}
+          <div className="absolute inset-0 rounded-[32px] bg-black/20"></div>
+
+          {/* Floating Card */}
+          <div className="absolute left-1/2 -translate-x-1/2 -bottom-45 z-10">
+            <div className="bg-white w-[650px] rounded-[28px] px-12 py-10 text-center shadow-[0_20px_50px_rgba(0,0,0,0.15)]">
+
+              <h1 className="text-[45px] font-extrabold text-[#23439B] leading-tight">
+                About the Conference
+              </h1>
+
+              <p className="mt-4 text-[17px] text-gray-600">
+                1st International Conference on Intelligent Systems and
+                Emerging Technologies
+              </p>
+
+              <div className="w-16 h-[5px] bg-[#EAB308] rounded-full mx-auto mt-6"></div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default AboutHero;

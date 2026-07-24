@@ -1,0 +1,72 @@
+const AboutUniversity = () => {
+  return (
+    <section className="bg-white py-24">
+      <div className="max-w-7xl mx-auto px-6">
+
+        {/* Heading */}
+        <div className="flex items-center gap-5 mb-12">
+          <div className="w-[4px] h-14 bg-[#F4B400] rounded-full"></div>
+
+          <h2 className="text-4xl font-bold text-[#23439B]">
+            About Poornima University
+          </h2>
+        </div>
+
+        {/* Content */}
+        <div className="space-y-10">
+
+          <p className="text-[#374151] text-[15px] leading-[2.1] text-justify">
+            Poornima University (PU) is a state private University in Jaipur,
+            India established by an Act of the Rajasthan Legislature. PU was
+            established in 2012 with a vision to create a knowledge-based
+            society with scientific temper, team spirit and dignity of labour
+            to face global competition and challenges. With modern
+            infrastructure, strong industry collaborations, and emphasis on
+            interdisciplinary research, Poornima University actively
+            contributes to technological and societal advancement.
+          </p>
+
+          <p className="text-[#374151] text-[15px] leading-[2.1] text-justify">
+            PU is recognized by the University Grants Commission (UGC) under
+            Section 2(f) and 12(B) with the right to confer degrees as per
+            Section 22(1) of the UGC Act, 1956. Its architecture program is
+            approved by the Council of Architecture (CoA) and the hotel
+            management program is approved by NCHMCT. Currently, PU has more
+            than 8000 students enrolled in nine faculties and fourteen
+            departments of UG/PG and PhD programs in various areas such as
+            Management, Engineering, Computer Application Sciences,
+            Architecture, Design, Public Health and Hotel Management. The
+            University is committed to fostering research and innovation, and
+            this conference is part of its mission to promote cutting-edge
+            research in sustainable computing and intelligent systems.
+          </p>
+
+        </div>
+
+        {/* Button */}
+
+        <div className="mt-16 flex justify-center">
+          <button
+            className="
+              text-[#23439B]
+              text-2xl
+              font-semibold
+              hover:text-[#F4B400]
+              transition-all
+              duration-300
+              group
+            "
+          >
+            Read More
+            <span className="ml-3 inline-block group-hover:translate-x-2 transition-transform duration-300">
+              →
+            </span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default AboutUniversity;

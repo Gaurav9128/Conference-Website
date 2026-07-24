@@ -7,7 +7,7 @@ const links = [
   },
   {
     title: "About",
-    href: "#about",
+    href: "/AboutPage",
   },
   {
     title: "Call for Special Session",
@@ -23,7 +23,7 @@ const links = [
   },
   {
     title: "Committee",
-    href: "#committee",
+    href: "/committee",
   },
   {
     title: "Speakers",
@@ -35,7 +35,7 @@ const links = [
   },
   {
     title: "Contact",
-    href: "#contact",
+    href: "/contact",
   },
 ];
 
