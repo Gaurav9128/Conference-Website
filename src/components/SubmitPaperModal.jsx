@@ -23,31 +23,31 @@ const SubmitPaperModal = ({ onClose }) => {
   const importantDates = [
     {
       title: "Start Paper Submission",
-      date: "July 01, 2026",
+      date: "-",
     },
     {
       title: "Full Paper Submission",
-      date: "September 30, 2026",
+      date: "-",
     },
     {
       title: "Notification of Acceptance",
-      date: "October 15, 2026",
+      date: "-",
     },
     {
       title: "Early Bird Registration",
-      date: "October 20, 2026",
+      date: "-",
     },
     {
       title: "Camera Ready",
-      date: "November 10, 2026",
+      date: "-",
     },
     {
       title: "Late Registration",
-      date: "November 15, 2026",
+      date: "-",
     },
     {
       title: "Conference Dates",
-      date: "November 27–28, 2026",
+      date: "-",
     },
   ];
 
@@ -77,7 +77,7 @@ const SubmitPaperModal = ({ onClose }) => {
             </h2>
 
             <p className="text-white/90 text-sm md:text-base mt-1">
-              Join ICISET 2026 – Share Your Research
+              Join ICRAIDT-2027 – Share Your Research
             </p>
           </div>
 
@@ -157,8 +157,7 @@ const SubmitPaperModal = ({ onClose }) => {
             <p className="text-[15px] leading-7 text-[#23439B]">
               <span className="font-bold">Note:</span> All submitted papers
               will undergo a peer-review process. Accepted papers will be
-              recommended for publication in Scopus Indexed Conference
-              Proceedings.
+              recommended for publication in Springer Proceedings.
             </p>
           </div>
 

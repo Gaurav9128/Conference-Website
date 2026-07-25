@@ -12,7 +12,7 @@ const HeroSection = () => {
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-[#111827] leading-snug md:leading-tight">
             International Conference on Responsible Artificial Intelligence and
             Digital Trust
-            <br />
+            
             <span className="block mt-3 sm:mt-4">(ICRAIDT 2027)</span>
           </h1>
 
@@ -22,11 +22,14 @@ const HeroSection = () => {
 
           <div className="mt-8 sm:mt-10 space-y-2">
             <p className="text-lg sm:text-xl md:text-2xl text-[#23439B] font-medium">
-              Organizing by
+              Organized by
             </p>
 
-            <p className="text-base sm:text-lg md:text-xl lg:text-[22px] text-[#23439B]">
+            {/* <p className="text-base sm:text-lg md:text-xl lg:text-[22px] text-[#23439B]">
               Department of Computer Applications
+            </p> */}
+             <p className="text-base sm:text-lg md:text-xl lg:text-[22px] text-[#23439B]">
+              Faculty of Computer Science and Engineering
             </p>
 
             <p className="text-base sm:text-lg md:text-xl lg:text-[22px] text-[#23439B]">

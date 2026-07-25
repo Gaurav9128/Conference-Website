@@ -1,21 +1,8 @@
-import React from "react";
 
-import rcat from "../../assets/partners/rcat.png";
-import iks from "../../assets/partners/iks.png";
 import acm from "../../assets/partners/acm.png";
 import poornima from "../../assets/partners/poornima.png";
 
 const partners = [
-  {
-    image: rcat,
-    title: "RCAT",
-    desc: "Council for Advanced Training, innovation, skill development and industry-oriented research initiatives.",
-  },
-  {
-    image: iks,
-    title: "IKS",
-    desc: "Indian Knowledge Systems (IKS) promotes interdisciplinary research rooted in India's traditional knowledge.",
-  },
   {
     image: acm,
     title: "ACM PU, Jaipur",
@@ -43,7 +30,7 @@ export default function PartnersSection() {
 
 
         <p className="max-w-4xl mx-auto mt-5 sm:mt-8 text-center text-gray-600 text-sm sm:text-base lg:text-lg leading-7 sm:leading-9">
-          ICISET-2026 is supported by distinguished academic institutions,
+          ICRAIDT 2027 is supported by distinguished academic institutions,
           research organizations, and professional bodies committed to
           advancing innovation in intelligent computing and future technologies.
         </p>

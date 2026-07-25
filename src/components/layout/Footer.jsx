@@ -114,7 +114,7 @@ const Footer = () => {
 
                 <FaEnvelope className="text-pink-400 text-[11px]" />
 
-                <span>iciset2026@poornima.edu.in</span>
+                <span>ICRAIDT2027@poornima.edu.in</span>
 
               </div>
 

@@ -46,11 +46,11 @@ const ContactSection = () => {
                                     </h4>
 
                                     <p className="text-gray-600 text-sm sm:text-base break-all">
-                                        iciset2026@poornima.edu.in
+                                        ICRAIDT2027@poornima.edu.in
                                     </p>
 
                                     <p className="text-gray-600 text-sm sm:text-base break-all">
-                                        saurabh.shandilya@poornima.edu.in
+                                        ravi.soni1@poornima.edu.in
                                     </p>
                                 </div>
 
@@ -72,7 +72,7 @@ const ContactSection = () => {
                                     </h4>
 
                                     <p className="text-gray-600 text-sm sm:text-base">
-                                        +91-9887587811
+                                        +91-9928166649
                                     </p>
                                 </div>
 

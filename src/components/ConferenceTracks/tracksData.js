@@ -1,7 +1,7 @@
 const tracks = [
   {
     id: 1,
-    number: "01",
+    number: "TRACK 01",
     title: "Core AI & Data Sciences",
     color: "from-blue-600 via-sky-500 to-cyan-400",
     iconBg: "bg-blue-100",
@@ -20,7 +20,7 @@ const tracks = [
 
   {
     id: 2,
-    number: "02",
+    number: "TRACK 02",
     title: "Security, Trust & Infrastructure",
     color: "from-emerald-600 via-teal-500 to-green-400",
     iconBg: "bg-emerald-100",
@@ -40,7 +40,7 @@ const tracks = [
 
   {
     id: 3,
-    number: "03",
+    number: "TRACK 03",
     title: "Systems, Software & Sustainability",
     color: "from-purple-600 via-fuchsia-500 to-pink-500",
     iconBg: "bg-purple-100",
@@ -59,7 +59,7 @@ const tracks = [
 
   {
     id: 4,
-    number: "04",
+    number: "TRACK 04",
     title: "Human-Centric Computing & Applied AI",
     color: "from-orange-500 via-red-500 to-rose-500",
     iconBg: "bg-orange-100",

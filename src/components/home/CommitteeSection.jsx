@@ -10,8 +10,8 @@ const committeeMembers = [
     role: "General Chair",
   },
   {
-    name: "Dr. Ravi Soni",
-    designation: "DY-Hod & Coordinator, PU",
+    name: "Dr. Savita Shiwani",
+    designation: "Hod, PU",
     role: "Convener",
   },
 ];
@@ -29,7 +29,7 @@ export default function CommitteeSection() {
 
         {/* Description */}
         <p className="max-w-5xl mx-auto mt-5 sm:mt-8 text-center text-slate-600 text-sm sm:text-base lg:text-lg leading-7 sm:leading-9">
-          The success of ICISET-2026 is guided by an accomplished panel of
+          The success of ICRAIDT 2027 is guided by an accomplished panel of
           academic leaders, researchers, and industry experts who bring
           extensive experience in intelligent computing, data science,
           cybersecurity, and emerging digital technologies. Their strategic

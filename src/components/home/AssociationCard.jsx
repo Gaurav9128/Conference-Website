@@ -9,12 +9,12 @@ const AssociationCard = () => {
           </h2>
 
           <div className="space-y-3 sm:space-y-4 text-[#2b4f9e] text-[15px] sm:text-[16px] md:text-[18px] leading-relaxed">
-            <p>Rajasthan Centre of Advanced Technology (RCAT), Jaipur</p>
+            <p>--</p>
 
-            <p>Bharat BoudhIKS</p>
+            <p>--</p>
 
             <p>
-              Indian Knowledge System (IKS) Cell, Poornima University, Jaipur
+              --
             </p>
           </div>
 

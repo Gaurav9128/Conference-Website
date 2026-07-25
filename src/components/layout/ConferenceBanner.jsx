@@ -34,7 +34,7 @@ const ConferenceBanner = () => {
                     "
                 >
 
-                    International Conference 2026
+                    International Conference 2027
 
                 </h2>
 

@@ -11,7 +11,7 @@ const links = [
   },
   {
     title: "Call for Special Session",
-    href: "/special-session",
+    href: "",
   },
   {
     title: "Conference Track",

@@ -4,13 +4,13 @@ import { IoClose } from "react-icons/io5";
 
 const notices = [
   {
-    text: "Paper Submission Deadline: September 30, 2026",
+    text: "Paper Submission Deadline: ",
   },
   {
-    text: "ICISET 2026 November 27–28, 2026",
+    text: "ICRAIDT-2027 January 22-23, 2027",
   },
   {
-    text: "Early Bird Registration: October 20, 2026",
+    text: "Early Bird Registration:",
   },
 ];
 

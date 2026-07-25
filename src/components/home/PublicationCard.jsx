@@ -7,11 +7,11 @@ const PublicationCard = () => {
 
           <p className="text-center text-[15px] sm:text-[17px] md:text-[18px] leading-7 sm:leading-8 md:leading-9 text-[#1f4599] font-medium">
 
-            All accepted papers will be recommended for publication in
+            --
             <br className="hidden sm:block" />
-            Scopus Indexed Journals & Scopus Indexed Conference Proceedings
+            --
             <br className="hidden sm:block" />
-            (Application sent for publication, Waiting for acceptance)
+            (--)
 
           </p>
 
