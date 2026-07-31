@@ -4,6 +4,7 @@ import ConferenceStats from "../components/about/ConferenceStats";
 import ConferenceBanner from "../components/layout/ConferenceBanner";
 import AboutUniversity from "../components/about/AboutUniversity";
 import AboutFaculty from "../components/about/AboutFaculty";
+import AboutDepartment from "../components/about/AboutDepartment";
 
 const AboutPage = () => {
   return (
@@ -13,6 +14,7 @@ const AboutPage = () => {
       <ConferenceStats />
       <AboutUniversity />
       <AboutFaculty />
+      <AboutDepartment />
       <ConferenceBanner />
       
       

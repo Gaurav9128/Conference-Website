@@ -13,7 +13,7 @@ const HeroSection = () => {
             International Conference on Responsible Artificial Intelligence and
             Digital Trust
             
-            <span className="block mt-3 sm:mt-4">(ICRAIDT 2027)</span>
+            <span className="block mt-3 sm:mt-4">(ICRAIDT - 2027)</span>
           </h1>
 
           <p className="mt-6 sm:mt-8 text-lg sm:text-xl md:text-2xl font-semibold text-[#23439B]">

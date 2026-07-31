@@ -20,10 +20,10 @@ const Footer = () => {
             <img
               src={logo}
               alt="Poornima University"
-              className="w-[160px] bg-white rounded-lg p-2"
+              className="w-[350px] bg-white rounded-lg p-2"
             />
 
-            <p className="mt-6 text-[13px] leading-7 text-gray-300">
+            {/* <p className="mt-6 text-[13px] leading-7 text-gray-300">
 
               The Microsoft CMT service was used for managing the
               peer-reviewing process for this conference. This service
@@ -44,7 +44,7 @@ const Footer = () => {
                 ✓ Conference Management Toolkit (CMT) by Microsoft
               </a>
 
-            </div>
+            </div> */}
 
           </div>
 
@@ -114,7 +114,7 @@ const Footer = () => {
 
                 <FaEnvelope className="text-pink-400 text-[11px]" />
 
-                <span>ICRAIDT2027@poornima.edu.in</span>
+                <span>icraidt2027@poornima.edu.in</span>
 
               </div>
 

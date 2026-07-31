@@ -18,7 +18,7 @@ import AboutHero from "./components/about/AboutHero";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./components/contact/ContactPage";
 import PartnersPage from "./components/committee/PartnersPage";
-
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
@@ -35,6 +35,7 @@ function App() {
       )}
 
       <BrowserRouter>
+      <ScrollToTop />
         <Header />
 
         <Routes>

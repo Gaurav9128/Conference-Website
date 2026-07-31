@@ -30,7 +30,7 @@ export default function PartnersSection() {
 
 
         <p className="max-w-4xl mx-auto mt-5 sm:mt-8 text-center text-gray-600 text-sm sm:text-base lg:text-lg leading-7 sm:leading-9">
-          ICRAIDT 2027 is supported by distinguished academic institutions,
+          ICRAIDT - 2027 is supported by distinguished academic institutions,
           research organizations, and professional bodies committed to
           advancing innovation in intelligent computing and future technologies.
         </p>

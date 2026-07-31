@@ -47,13 +47,13 @@ const ConferenceTracks = () => {
             ">
 
 
-              <h2 className="text-3xl sm:text-4xl lg:text-[52px] font-bold text-[#23439B] leading-tight">
-                Call for Papers
+              <h2 className="text-3xl sm:text-4xl lg:text-[40px] font-bold text-[#23439B] leading-tight">
+                Conference Tracks
               </h2>
 
 
               <p className="mt-3 text-sm sm:text-lg lg:text-[21px] text-gray-600">
-                ICISET 2026 invites original research papers
+                ICRAIDT - 2027 invites original research papers
               </p>
 
 
@@ -114,7 +114,7 @@ const ConferenceTracks = () => {
             </span>
 
             {" "}
-            Besides contributions addressing the conference theme, ICRAIDT also
+            Besides contributions addressing the conference theme, ICRAIDT - 2027also
             welcomes authors to submit their original research results in
             traditional and emerging research areas across a wide range of
             application and technological domains within the context of

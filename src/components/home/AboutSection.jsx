@@ -1,10 +1,23 @@
 import aboutImage from "../../assets/about.jpg";
+import { useNavigate } from "react-router-dom";
 
 const AboutSection = () => {
+  const navigate = useNavigate();
+
+  const handleReadMore = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+
+    navigate("/AboutPage");
+  };
+
   const paragraphStyle =
     "text-[16px] lg:text-[16px] font-normal leading-[42px] tracking-[0.2px] text-[#4b5563] text-justify";
 
   return (
+
     <section
       id="about"
       className="bg-[#f7f9fc] py-10 sm:py-14 lg:py-20"
@@ -17,7 +30,7 @@ const AboutSection = () => {
           <div>
 
             <h2 className="text-[30px] font-bold text-[#1d2939] mb-8 leading-tight">
-              About the ICRAIDT 2027 Conference
+              About the ICRAIDT - 2027 Conference
             </h2>
 
             <p className={paragraphStyle}>
@@ -25,7 +38,7 @@ const AboutSection = () => {
               <span className="font-semibold text-[#2d3d6f]">
                 {" "}
                 International Conference on Responsible Artificial Intelligence
-                and Digital Trust (ICRAIDT 2027),
+                and Digital Trust (ICRAIDT - 2027),
               </span>
               {" "}
               is a premier international forum dedicated to advancing research,
@@ -43,19 +56,22 @@ const AboutSection = () => {
             <p className={`${paragraphStyle} mt-8`}>
               Under the theme
               <span className="font-semibold text-[#2d3d6f]">
-                {" "}ICRAIDT 2027
+                {" "}ICRAIDT - 2027
               </span>
               {" "}
               <span className="font-medium">
                 "Responsible AI for a Secure, Transparent and Inclusive Digital
                 Future,"
               </span>{" "}
-              ICRAIDT 2027 seeks to foster meaningful dialogue on the
+              ICRAIDT - 2027 seeks to foster meaningful dialogue on the
               development and deployment of technologies that are innovative,
               ethical, trustworthy, and socially beneficial.
             </p>
 
-            <button className="mt-10 bg-[#23439B] hover:bg-[#1d367e] text-white px-8 py-4 rounded-lg font-medium text-lg transition-all duration-300 shadow-md hover:shadow-lg">
+            <button
+              onClick={handleReadMore}
+              className="mt-10 bg-[#23439B] hover:bg-[#1d367e] text-white px-8 py-4 rounded-lg font-medium text-lg transition-all duration-300 shadow-md hover:shadow-lg"
+            >
               Read More
             </button>
 
@@ -66,7 +82,7 @@ const AboutSection = () => {
 
             <img
               src={aboutImage}
-              alt="About ICRAIDT 2027"
+              alt="About ICRAIDT - 2027"
               className="w-full max-w-[690px] h-[250px] sm:h-[360px] lg:h-[430px] object-cover rounded-2xl shadow-lg"
             />
 

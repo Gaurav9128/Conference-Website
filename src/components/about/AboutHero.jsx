@@ -116,8 +116,7 @@ const AboutHero = () => {
                 "
               >
 
-                1st International Conference on Intelligent Systems and
-                Emerging Technologies
+                International Conference on Responsible Artificial Intelligence and Digital Trust
 
               </p>
 

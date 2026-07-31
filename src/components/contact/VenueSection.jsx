@@ -57,7 +57,7 @@ const VenueSection = () => {
                             "
                         >
 
-                            ICISET 2026 will be held at Poornima University, Jaipur —
+                            ICRAIDT - 2027will be held at Poornima University, Jaipur —
                             a state-of-the-art educational institution equipped with
                             modern facilities for international conferences.
 
@@ -136,7 +136,7 @@ const VenueSection = () => {
 
                             <p className="text-sm text-gray-600">
 
-                                +91-9887587811
+                                +91-9928166649
 
                             </p>
 
@@ -180,7 +180,7 @@ const VenueSection = () => {
                                 "
                             >
 
-                                iciset2026@poornima.edu.in
+                                icraidt2027@poornima.edu.in
 
                             </p>
 
@@ -196,7 +196,7 @@ const VenueSection = () => {
                                 "
                             >
 
-                                saurabh.shandilya@poornima.edu.in
+                                ravi.soni1@poornima.edu.in
 
                             </p>
 

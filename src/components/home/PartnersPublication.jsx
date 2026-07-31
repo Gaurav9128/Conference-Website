@@ -75,9 +75,9 @@ const PartnersPublication = () => {
 
 
               <h2 className="
-                text-3xl
-                sm:text-4xl
-                lg:text-[45px]
+                text-2xl
+                sm:text-3xl
+                lg:text-[30px]
                 font-bold
                 text-[#23439B]
                 leading-tight

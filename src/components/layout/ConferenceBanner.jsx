@@ -34,7 +34,7 @@ const ConferenceBanner = () => {
                     "
                 >
 
-                    International Conference 2027
+                    International Conference on Responsible Artificial Intelligence and Digital Trust
 
                 </h2>
 

@@ -33,7 +33,7 @@ const ConferenceTracks = () => {
           </h2>
 
           <p className="mt-4 sm:mt-6 text-sm sm:text-base lg:text-lg leading-7 sm:leading-9 text-slate-600">
-            Explore the major research areas of ICRAIDT 2027 that encourage
+            Explore the major research areas of ICRAIDT - 2027 that encourage
             interdisciplinary collaboration and showcase the latest
             advancements in International Conference on Responsible Artificial
             Intelligence and Digital Trust.
