@@ -75,7 +75,7 @@ const convener = [
   {
     image: hod,
     name: "Dr. Savita Shiwani",
-    designation: "Professor and Head, CSA, FCE",
+    designation: "Professor & Head – Department of Computer Applications (BCA Higher) FCE",
     organization: "Poornima University",
   },
 ];
