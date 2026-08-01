@@ -1,13 +1,13 @@
 
-import acm from "../../assets/partners/acm.png";
+//import acm from "../../assets/partners/acm.png";
 import poornima from "../../assets/partners/poornima.png";
 
 const partners = [
-  {
-    image: acm,
-    title: "ACM PU, Jaipur",
-    desc: "The ACM Student Chapter at Poornima University, Jaipur focuses on innovation and technical excellence.",
-  },
+  // {
+  //   image: acm,
+  //   title: "ACM PU, Jaipur",
+  //   desc: "The ACM Student Chapter at Poornima University, Jaipur focuses on innovation and technical excellence.",
+  // },
   {
     image: poornima,
     title: "Poornima University",

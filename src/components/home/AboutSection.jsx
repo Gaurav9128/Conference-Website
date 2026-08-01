@@ -46,7 +46,7 @@ const AboutSection = () => {
               Intelligence, Digital Trust, Cybersecurity, Data Science, Cloud
               Computing, Blockchain, Human-Centric Computing, and Emerging
               Digital Technologies. Organized by the Department of Computer
-              Applications, Poornima University, Jaipur, the conference aims to
+              Applications, Faculty of Computer Science and Engineering Poornima University, Jaipur, the conference aims to
               bring together researchers, academicians, industry experts,
               practitioners, policymakers, and students from across the globe
               to exchange ideas, present research findings, and discuss emerging

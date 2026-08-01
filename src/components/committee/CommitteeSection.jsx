@@ -1,10 +1,13 @@
 import chairman from "../../assets/committee/person1.png";
 import president from "../../assets/committee/person2.png";
 import director from "../../assets/committee/person3.png";
-
 import proPresident from "../../assets/committee/person4.png";
-import dean from "../../assets/committee/person3.png";
+import Dean from "../../assets/committee/person8.png";
 import international from "../../assets/committee/person3.png";
+import Registrar from "../../assets/committee/person7.png";
+import Dyhod from "../../assets/committee/person9.jpeg";
+import hod from "../../assets/committee/person9.png";
+import Ravi from "../../assets/committee/person10.jpeg";
 
 
 const chiefPatrons = [
@@ -36,26 +39,55 @@ const generalChairs = [
     designation: "Pro-President (FET & FCE)",
     organization: "Poornima University",
   },
+];
+
+const GeneralChair = [
   {
-    image: dean,
-    name: "Prof. (Dr.) Arun Chougule",
-    designation: "Dean Academics",
-    organization: "SKGI",
+    image: Registrar,
+    name: "Dr. Devendra Somvanshi",
+    designation: "Registrar",
+    organization: "Poornima University",
   },
   {
-    image: international,
-    name: "Dr. Issam El Naqa",
-    designation: "Chair, Department of Machine Learning",
-    organization: "Moffitt Cancer Center, Tampa, Florida, USA",
+    image: Dean,
+    name: "Dr. Shikha Sharma",
+    designation: "Dean FCE",
+    organization: "Poornima University",
+  },
+];
+
+const convener = [
+  {
+    image: Ravi,
+    name: "Dr. Ravi Soni",
+    designation: "Associate Professor, CSA,FCE",
+    organization: "Poornima University",
+  },
+  {
+    image: Dyhod,
+    name: "Dr. Manali Pareek",
+    designation: "Associate Professor, CSA, FCE",
+    organization: "Poornima University",
+  },
+];
+
+ const Organizing = [
+  {
+    image: hod,
+    name: "Dr. Savita Shiwani",
+    designation: "Professor and Head, CSA, FCE",
+    organization: "Poornima University",
   },
 ];
 
 
 
+
+
 const CommitteeCard = ({ person }) => (
 
-<div
-className="
+  <div
+    className="
 bg-white
 rounded-2xl
 sm:rounded-[24px]
@@ -73,13 +105,13 @@ border-[#edf2fb]
 hover:-translate-y-2
 h-full
 "
->
+  >
 
 
-<img
-src={person.image}
-alt={person.name}
-className="
+    <img
+      src={person.image}
+      alt={person.name}
+      className="
 w-28
 h-28
 sm:w-36
@@ -87,17 +119,17 @@ sm:h-36
 lg:w-40
 lg:h-40
 rounded-full
-object-cover
+object-contain
 mx-auto
 border-4
 border-[#f5f7ff]
 "
-/>
+    />
 
 
 
-<h3
-className="
+    <h3
+      className="
 mt-6
 sm:mt-8
 text-xl
@@ -107,15 +139,15 @@ font-semibold
 text-[#111827]
 break-words
 "
->
-{person.name}
-</h3>
+    >
+      {person.name}
+    </h3>
 
 
 
 
-<p
-className="
+    <p
+      className="
 mt-3
 sm:mt-4
 text-sm
@@ -124,15 +156,15 @@ font-medium
 text-[#23439B]
 leading-6
 "
->
-{person.designation}
-</p>
+    >
+      {person.designation}
+    </p>
 
 
 
 
-<p
-className="
+    <p
+      className="
 mt-3
 sm:mt-4
 text-xs
@@ -141,13 +173,13 @@ text-gray-500
 leading-6
 sm:leading-8
 "
->
-{person.organization}
-</p>
+    >
+      {person.organization}
+    </p>
 
 
 
-</div>
+  </div>
 
 );
 
@@ -157,26 +189,26 @@ sm:leading-8
 
 const CommitteeSection = () => {
 
-return (
+  return (
 
-<section className="bg-[#F7F8FC] py-14 sm:py-20 lg:py-24">
+    <section className="bg-[#F7F8FC] py-14 sm:py-20 lg:py-24">
 
 
-<div
-className="
+      <div
+        className="
 max-w-7xl
 mx-auto
 px-4
 sm:px-6
 "
->
+      >
 
 
 
-{/* Chief Patrons */}
+        {/* Chief Patrons */}
 
-<h2
-className="
+        <h2
+          className="
 text-center
 text-xl
 sm:text-2xl
@@ -188,15 +220,15 @@ mb-10
 sm:mb-16
 tracking-wide
 "
->
-Chief Patrons
-</h2>
+        >
+          Chief Patrons
+        </h2>
 
 
 
 
-<div
-className="
+        <div
+          className="
 grid
 grid-cols-1
 sm:grid-cols-2
@@ -204,33 +236,33 @@ lg:grid-cols-3
 gap-6
 sm:gap-10
 "
->
+        >
 
 
-{
-chiefPatrons.map((item,index)=>(
+          {
+            chiefPatrons.map((item, index) => (
 
-<CommitteeCard
-key={index}
-person={item}
-/>
+              <CommitteeCard
+                key={index}
+                person={item}
+              />
 
-))
+            ))
 
-}
-
-
-</div>
+          }
 
 
+        </div>
 
 
 
-{/* General Chairs */}
 
 
-<h2
-className="
+        {/* General Chairs */}
+
+
+        <h2
+          className="
 text-center
 text-xl
 sm:text-2xl
@@ -244,50 +276,125 @@ mb-10
 sm:mb-16
 tracking-wide
 "
->
-General Chairs
-</h2>
+        >
+          General Chairs
+        </h2>
 
 
 
 
 
-<div
-className="
-grid
-grid-cols-1
-sm:grid-cols-2
-lg:grid-cols-3
-gap-6
-sm:gap-10
+        <div className="flex justify-center">
+          <div className="w-full sm:w-[420px] lg:w-[480px]">
+            {generalChairs.map((item, index) => (
+              <CommitteeCard key={index} person={item} />
+            ))}
+
+          </div>
+        </div>
+
+
+      </div> &nbsp; &nbsp;
+
+      {/* Co- General Chairs */}
+
+        <h2
+          className="
+text-center
+text-xl
+sm:text-2xl
+lg:text-[25px]
+font-bold
+text-[#23439B]
+uppercase
+mb-10
+sm:mb-16
+tracking-wide
 "
->
+        >
+          CO-General Chairs
+        </h2>
 
 
-{
-generalChairs.map((item,index)=>(
-
-<CommitteeCard
-key={index}
-person={item}
-/>
-
-))
-
-}
 
 
+        <div className="flex flex-wrap justify-center gap-6 sm:gap-10">
+  {GeneralChair.map((item, index) => (
+    <div key={index} className="w-full sm:w-[420px] lg:w-[380px]">
+      <CommitteeCard person={item} />
+    </div>
+  ))}
+</div> &nbsp; &nbsp;
+
+       {/* Co- General Chairs */}
+
+        <h2
+          className="
+text-center
+text-xl
+sm:text-2xl
+lg:text-[25px]
+font-bold
+text-[#23439B]
+uppercase
+mb-10
+sm:mb-16
+tracking-wide
+"
+        >
+          Convener
+        </h2>
+
+
+
+
+        <div className="flex flex-wrap justify-center gap-6 sm:gap-10">
+  {convener.map((item, index) => (
+    <div key={index} className="w-full sm:w-[420px] lg:w-[380px]">
+      <CommitteeCard person={item} />
+    </div>
+  ))}
 </div>
 
+        
+       {/* General Chairs */}
+
+
+        <h2
+          className="
+text-center
+text-xl
+sm:text-2xl
+lg:text-[25px]
+font-bold
+text-[#23439B]
+uppercase
+mt-20
+sm:mt-28
+mb-10
+sm:mb-16
+tracking-wide
+"
+        >
+          CONFERENCE ORGANIZING SECRETARIES
+        </h2>
 
 
 
-</div>
 
 
-</section>
+        <div className="flex justify-center">
+          <div className="w-full sm:w-[420px] lg:w-[480px]">
+            {Organizing.map((item, index) => (
+              <CommitteeCard key={index} person={item} />
+            ))}
 
-);
+          </div>
+        </div>
+
+    </section>
+
+  );
 
 };
 
