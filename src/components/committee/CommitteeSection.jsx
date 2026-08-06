@@ -345,7 +345,7 @@ sm:mb-16
 tracking-wide
 "
         >
-          CONFERENCE ORGANIZING SECRETARIES
+          CONFERENCE ORGANIZING SECRETARY
         </h2>
 
 
