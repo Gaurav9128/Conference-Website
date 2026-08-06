@@ -326,38 +326,7 @@ tracking-wide
   ))}
 </div> &nbsp; &nbsp;
 
-       {/* Co- General Chairs */}
-
-        <h2
-          className="
-text-center
-text-xl
-sm:text-2xl
-lg:text-[25px]
-font-bold
-text-[#23439B]
-uppercase
-mb-10
-sm:mb-16
-tracking-wide
-"
-        >
-          Convener
-        </h2>
-
-
-
-
-        <div className="flex flex-wrap justify-center gap-6 sm:gap-10">
-  {convener.map((item, index) => (
-    <div key={index} className="w-full sm:w-[420px] lg:w-[380px]">
-      <CommitteeCard person={item} />
-    </div>
-  ))}
-</div>
-
-        
-       {/* General Chairs */}
+{/* General Chairs */}
 
 
         <h2
@@ -390,7 +359,40 @@ tracking-wide
             ))}
 
           </div>
-        </div>
+        </div>&nbsp;&nbsp;
+
+       {/* Co- General Chairs */}
+
+        <h2
+          className="
+text-center
+text-xl
+sm:text-2xl
+lg:text-[25px]
+font-bold
+text-[#23439B]
+uppercase
+mb-10
+sm:mb-16
+tracking-wide
+"
+        >
+          Convener
+        </h2>
+
+
+
+
+        <div className="flex flex-wrap justify-center gap-6 sm:gap-10">
+  {convener.map((item, index) => (
+    <div key={index} className="w-full sm:w-[420px] lg:w-[380px]">
+      <CommitteeCard person={item} />
+    </div>
+  ))}
+</div>
+
+        
+       
 
     </section>
 

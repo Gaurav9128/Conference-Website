@@ -3,58 +3,58 @@ import {
   FaPhoneAlt,
 } from "react-icons/fa";
 
-import person1 from "../../assets/team/person1.png";
-import person2 from "../../assets/team/person2.png";
-import person3 from "../../assets/team/person3.png";
-import person4 from "../../assets/team/person4.png";
-import person5 from "../../assets/team/person5.png";
+// import person1 from "../../assets/team/person1.png";
+// import person2 from "../../assets/team/person2.png";
+// import person3 from "../../assets/team/person3.png";
+// import person4 from "../../assets/team/person4.png";
+// import person5 from "../../assets/team/person5.png";
 
 const teamMembers = [
-  {
-    role: "Organizing Chair",
-    name: "Dr. Saurabh Shandilya",
-    designation: "Professor, PU Jaipur",
-    department: "Faculty of Computer Science & Engineering",
-    email: "saurabh.shandilya@poornima.edu.in",
-    phone: "+91-9887587811",
-    image: person1,
-  },
-  {
-    role: "Convener",
-    name: "Dr. Sumit Kumar Kapoor",
-    designation: "Associate Professor",
-    department: "Faculty of CSE",
-    email: "sumit.kapoor@poornima.edu.in",
-    phone: "+91-8006690016",
-    image: person2,
-  },
-  {
-    role: "Convener",
-    name: "Dr. Ravi Soni",
-    designation: "Assistant Professor",
-    department: "Faculty of CSE",
-    email: "ravi.soni1@poornima.edu.in",
-    phone: "+91-9928166649",
-    image: person3,
-  },
-  {
-    role: "Co-Convener",
-    name: "Dr. Kriti Sankhla",
-    designation: "Associate Professor",
-    department: "Faculty of Computer Science & Engineering",
-    email: "kriti.sankhla@poornima.edu.in",
-    phone: "+91-9876543210",
-    image: person4,
-  },
-  {
-    role: "Co-Convener",
-    name: "Mr. Sagar Kumar",
-    designation: "Assistant Professor",
-    department: "Faculty of Computer Science & Engineering",
-    email: "sagar.kumar@poornima.edu.in",
-    phone: "+91-9876543211",
-    image: person5,
-  },
+  // {
+  //   role: "Organizing Chair",
+  //   name: "Dr. Saurabh Shandilya",
+  //   designation: "Professor, PU Jaipur",
+  //   department: "Faculty of Computer Science & Engineering",
+  //   email: "saurabh.shandilya@poornima.edu.in",
+  //   phone: "+91-9887587811",
+  //   image: person1,
+  // },
+  // {
+  //   role: "Convener",
+  //   name: "Dr. Sumit Kumar Kapoor",
+  //   designation: "Associate Professor",
+  //   department: "Faculty of CSE",
+  //   email: "sumit.kapoor@poornima.edu.in",
+  //   phone: "+91-8006690016",
+  //   image: person2,
+  // },
+  // {
+  //   role: "Convener",
+  //   name: "Dr. Ravi Soni",
+  //   designation: "Assistant Professor",
+  //   department: "Faculty of CSE",
+  //   email: "ravi.soni1@poornima.edu.in",
+  //   phone: "+91-9928166649",
+  //   image: person3,
+  // },
+  // {
+  //   role: "Co-Convener",
+  //   name: "Dr. Kriti Sankhla",
+  //   designation: "Associate Professor",
+  //   department: "Faculty of Computer Science & Engineering",
+  //   email: "kriti.sankhla@poornima.edu.in",
+  //   phone: "+91-9876543210",
+  //   image: person4,
+  // },
+  // {
+  //   role: "Co-Convener",
+  //   name: "Mr. Sagar Kumar",
+  //   designation: "Assistant Professor",
+  //   department: "Faculty of Computer Science & Engineering",
+  //   email: "sagar.kumar@poornima.edu.in",
+  //   phone: "+91-9876543211",
+  //   image: person5,
+  // },
 ];
 
 const ContactTeam = () => {
