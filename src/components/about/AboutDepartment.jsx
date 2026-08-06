@@ -116,7 +116,11 @@ const AboutDepartment = () => {
                 <div className="mt-10 sm:mt-16 flex justify-center">
 
 
-                    <button
+                    <a
+
+                        href="https://poornima.edu.in/academics/faculty-of-computer-science/bca/vision-mission-learning-outcomes"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="
               text-[#23439B]
               text-lg
@@ -148,7 +152,7 @@ const AboutDepartment = () => {
                         </span>
 
 
-                    </button>
+                    </a>
 
 
                 </div>

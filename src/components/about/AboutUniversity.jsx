@@ -118,45 +118,40 @@ const AboutUniversity = () => {
         {/* Button */}
 
         <div className="mt-10 sm:mt-16 flex justify-center">
-
-
-          <button
+          <a
+            href="https://poornima.edu.in/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="
-              text-[#23439B]
-              text-lg
-              sm:text-xl
-              lg:text-2xl
-              font-semibold
-              hover:text-[#F4B400]
-              transition-all
-              duration-300
-              group
-            "
+      text-[#23439B]
+      text-lg
+      sm:text-xl
+      lg:text-2xl
+      font-semibold
+      hover:text-[#F4B400]
+      transition-all
+      duration-300
+      group
+      inline-flex
+      items-center
+    "
           >
-
             Read More
-
 
             <span
               className="
-                ml-2
-                sm:ml-3
-                inline-block
-                group-hover:translate-x-2
-                transition-transform
-                duration-300
-              "
+        ml-2
+        sm:ml-3
+        inline-block
+        group-hover:translate-x-2
+        transition-transform
+        duration-300
+      "
             >
               →
-
             </span>
-
-
-          </button>
-
-
+          </a>
         </div>
-
 
 
       </div>

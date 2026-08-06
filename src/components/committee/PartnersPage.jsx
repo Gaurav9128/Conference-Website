@@ -1,5 +1,5 @@
 
-import ConferenceBanner from "../layout/ConferenceBanner";
+//import ConferenceBanner from "../layout/ConferenceBanner";
 import CommitteeSection from "./CommitteeSection";
 import PartnersHero from "./PartnersHero";
 
@@ -11,7 +11,7 @@ const PartnersPage = () => {
        
       <div className="-mt-16">
         <CommitteeSection />
-        <ConferenceBanner />
+        {/* <ConferenceBanner /> */}
         
       </div>
     </>

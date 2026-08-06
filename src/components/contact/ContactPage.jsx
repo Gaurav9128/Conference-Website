@@ -1,7 +1,7 @@
 import ContactHero from "./ContactHero";
 import ContactTeam from "./ContactTeam";
 import VenueFacilities from "./VenueFacilities";
-import ConferenceBanner from "../layout/ConferenceBanner";
+//import ConferenceBanner from "../layout/ConferenceBanner";
 import VenueSection from "./VenueSection";
 
 const ContactPage = () => {
@@ -11,7 +11,7 @@ const ContactPage = () => {
       <ContactTeam />
       <VenueSection />
       <VenueFacilities />
-      <ConferenceBanner />
+      {/* <ConferenceBanner /> */}
     </>
   );
 };

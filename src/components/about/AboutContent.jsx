@@ -1,4 +1,4 @@
-import aboutImage from "../../assets/about.jpg";
+import aboutImage from "../../assets/p1.png";
 import { FaCheckCircle } from "react-icons/fa";
 
 const features = [

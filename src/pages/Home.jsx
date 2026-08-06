@@ -21,7 +21,7 @@ const Home = () => {
       <PartnersSection />
       <CommitteeSection />
       <ContactSection />
-      <ConferenceBanner />
+      {/* <ConferenceBanner /> */}
     
     </>
   );

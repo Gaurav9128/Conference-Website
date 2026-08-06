@@ -73,6 +73,17 @@ const SpeakerCard = ({ speaker }) => {
       >
         {speaker.organization}
       </p>
+      <p
+        className="
+          mt-2
+          text-[18px]
+          text-gray-600
+          leading-8
+          max-w-[420px]
+        "
+      >
+        {speaker.university}
+      </p>
     </div>
   );
 };

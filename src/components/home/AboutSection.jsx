@@ -1,4 +1,4 @@
-import aboutImage from "../../assets/about.jpg";
+import aboutImage from "../../assets/p1.png";
 import { useNavigate } from "react-router-dom";
 
 const AboutSection = () => {

@@ -25,9 +25,9 @@ const HeroSection = () => {
               Organized by
             </p>
 
-            {/* <p className="text-base sm:text-lg md:text-xl lg:text-[22px] text-[#23439B]">
+            <p className="text-base sm:text-lg md:text-xl lg:text-[22px] text-[#23439B]">
               Department of Computer Applications
-            </p> */}
+            </p>
              <p className="text-base sm:text-lg md:text-xl lg:text-[22px] text-[#23439B]">
               Faculty of Computer Science and Engineering
             </p>

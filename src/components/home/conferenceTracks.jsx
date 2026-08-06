@@ -1,5 +1,5 @@
 import heroVideo from "../../assets/Video.mp4";
-import ConferenceBanner from "../layout/ConferenceBanner";
+//import ConferenceBanner from "../layout/ConferenceBanner";
 import AwardSection from "./AwardSection";
 import TrackSection from "./TrackSection";
 
@@ -182,7 +182,7 @@ const ConferenceTracks = () => {
 
       <AwardSection />
 
-      <ConferenceBanner />
+      {/* <ConferenceBanner /> */}
 
 
     </section>

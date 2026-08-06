@@ -1,6 +1,6 @@
 import heroVideo from "../../assets/Video.mp4";
 import { FaCheck } from "react-icons/fa";
-import ConferenceBanner from "../layout/ConferenceBanner";
+//import ConferenceBanner from "../layout/ConferenceBanner";
 
 const sponsorshipPlans = [
   {
@@ -309,7 +309,7 @@ const SponsorshipHeader = () => {
 
 
 
-      <ConferenceBanner />
+      {/* <ConferenceBanner /> */}
 
 
     </section>

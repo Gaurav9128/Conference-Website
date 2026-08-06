@@ -1,5 +1,5 @@
 import keynoteVideo from "../../assets/Video.mp4"; 
-import ConferenceBanner from "../layout/ConferenceBanner";
+//import ConferenceBanner from "../layout/ConferenceBanner";
 import KeynoteSpeakers from "../Speaker/KeynoteSpeakers";
 
 const KeynoteHeader = () => {
@@ -145,7 +145,7 @@ const KeynoteHeader = () => {
 
       <KeynoteSpeakers />
 
-      <ConferenceBanner />
+      {/* <ConferenceBanner /> */}
 
 
     </section>

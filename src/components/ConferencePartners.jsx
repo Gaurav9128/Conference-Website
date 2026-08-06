@@ -1,14 +1,14 @@
 const partners = [
-  {
-    id: 1,
-    image: "/partners/acm.png",
-    alt: "ACM PU Jaipur",
-  },
-  {
-    id: 2,
-    image: "/partners/rcat.png",
-    alt: "RCAT",
-  },
+  // {
+  //   id: 1,
+  //   image: "/partners/acm.png",
+  //   alt: "ACM PU Jaipur",
+  // },
+  // {
+  //   id: 2,
+  //   image: "/partners/rcat.png",
+  //   alt: "RCAT",
+  // },
 ];
 
 const ConferencePartners = () => {

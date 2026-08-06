@@ -8,11 +8,11 @@ const partners = [
   //   title: "ACM PU, Jaipur",
   //   desc: "The ACM Student Chapter at Poornima University, Jaipur focuses on innovation and technical excellence.",
   // },
-  {
-    image: poornima,
-    title: "Poornima University",
-    desc: "Poornima University supports academic excellence through research and innovation.",
-  },
+  // {
+  //   image: poornima,
+  //   title: "Poornima University",
+  //   desc: "Poornima University supports academic excellence through research and innovation.",
+  // },
 ];
 
 const marqueePartners = [...partners, ...partners];

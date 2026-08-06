@@ -1,6 +1,6 @@
 import heroVideo from "../../assets/Video.mp4";
 import ConferencePartners from "../ConferencePartners";
-import ConferenceBanner from "../layout/ConferenceBanner";
+//import ConferenceBanner from "../layout/ConferenceBanner";
 import IndustryPartners from "./IndustryPartners";
 import PublicationInfo from "./PublicationInfo";
 import PublicationPartners from "./PublicationPartners";
@@ -146,7 +146,7 @@ const PartnersPublication = () => {
 
       <PublicationInfo />
 
-      <ConferenceBanner />
+      {/* <ConferenceBanner /> */}
 
 
     </section>
